@@ -1,0 +1,11 @@
+---
+description: Bối cảnh và yêu cầu đề tài quản lý cửa hàng quần áo
+alwaysApply: true
+---
+
+# Project: Quản lý cửa hàng bán quần áo
+
+- **Tech:** BE Java Spring Boot, FE Angular 19, DB MySQL.
+- **Chức năng:** Quản lý loại sản phẩm, sản phẩm, khách hàng, đơn hàng; thống kê doanh thu.
+- **Yêu cầu bắt buộc:** Áp dụng **tất cả** design pattern (Creational 5, Behavioral 11, Structural 7) vào BE; thiết kế theo **SOLID**.
+- Khi implement/review BE, tham chiếu skill **design-pattern-store** (`.cursor/skills/design-pattern-store/`) để chọn pattern và checklist đủ 23 mẫu.

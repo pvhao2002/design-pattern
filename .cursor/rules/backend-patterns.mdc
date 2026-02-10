@@ -1,0 +1,20 @@
+---
+description: Chuẩn BE Java Spring Boot — SOLID và design patterns
+globs: **/*.java
+alwaysApply: false
+---
+
+# Backend: SOLID + Design Patterns
+
+- Tuân thủ **SOLID**. Ưu tiên interface, dependency injection; mỗi class một trách nhiệm.
+- Khi thêm service/entity/API: chọn pattern phù hợp từ danh sách bắt buộc và ghi rõ class thuộc pattern nào.
+
+**Pattern bắt buộc (phải có trong project):**
+- Creational: Factory, Abstract Factory, Builder, Prototype, Singleton
+- Behavioral: Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method, Visitor
+- Structural: Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy
+
+**Ví dụ nhanh:**
+- Order trạng thái → State; validation pipeline → Chain of Responsibility; tính giảm giá → Strategy; event khi đơn đổi → Observer; service che nhiều component → Facade.
+
+Chi tiết map feature → pattern: `.cursor/skills/design-pattern-store/reference.md`.
